@@ -67,8 +67,8 @@ meeting
         console.log(err.message);
     })
 ```
+- Can chain promises to execute chain of actions from async result
 ```JS
-// Can chain promises to execute chain of actions from async result
 /*const addToCalendar = meetingDetails => {
     return new Promise((resolve, reject) => {
         const calendar = `${meetingDetails.name} is scheduled at ${meetingDetails.time} on ${meetingDetails.location}`;
@@ -91,8 +91,8 @@ meeting
         console.log(err.message);
     })
 ```
+- Sometimes we need multiple promises to run at the same time => execute some callback after they've all completed
 ```JS
-// Sometimes we need multiple promises to run at the same time => execute some callback after they've all completed
 const promise1 = Promise.resolve("Promise 1 complete"); //if you only need resolve
 const promise2 = new Promise((res, rej) => {
     setTimeout(() => {
