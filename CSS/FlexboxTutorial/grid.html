@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .header {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 25%; /*flex-basis only*/
+        }
+
+        .column img {
+            padding: 4px;
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 800px) {
+            .column { /*only 2 columns*/
+                flex: 50%; 
+            }
+        }
+
+        @media (max-width: 600px) {
+            .column { /*only 1 column*/
+                flex: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Responsive Image Grid</h1>
+        <p>Resize the browser window to see the responsive effect</p>
+    </div>
+
+     <div class="row">
+         <div class="column">
+             <img src="../images/3.jpg">
+             <img src="../images/2.jpg">
+             <img src="../images/1.jpg">
+         </div>
+         <div class="column">
+            <img src="../images/2.jpg">
+            <img src="../images/1.jpg">
+            <img src="../images/3.jpg">
+        </div>
+        <div class="column">
+            <img src="../images/1.jpg">
+            <img src="../images/2.jpg">
+            <img src="../images/3.jpg">
+        </div>
+        <div class="column">
+            <img src="../images/3.jpg">
+            <img src="../images/1.jpg">
+            <img src="../images/2.jpg">
+        </div>
+     </div>
+</body>
+</html>

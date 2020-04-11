@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox-container {
+            display: flex;
+            /*flex-wrap: wrap;
+            justify-content: space-evenly; /*flex-start, flex-end, center, space-between, space-around, space-evenly* /
+            align-items: center;
+            align-content: center;*/
+            background-color: green;
+            border: 3px solid black;
+        }
+
+        .flexbox-item {
+            width: 15%;
+            background-color: #ff652f;
+            border: 3px solid #272727;
+            color: #fff;
+            font-size:  2em;
+            padding: 20px;
+            margin: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-1 {
+            min-height: 50px;
+            flex: 1 1 15%;
+            align-self: center;
+            order: 2;
+        }
+        .item-2 {
+            min-height: 100px;
+            flex: 1 1 25%;
+            align-self: flex-end;
+            order: 1;
+        }
+        .item-3 {
+            min-height: 250px;
+            flex: 5 5 25%;
+            align-self: flex-start;
+            order: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox-container">
+        <div class="flexbox-item item-1">1</div>
+        <div class="flexbox-item item-2">2</div>
+        <div class="flexbox-item item-3">3</div>
+    </div>
+</body>
+</html>
