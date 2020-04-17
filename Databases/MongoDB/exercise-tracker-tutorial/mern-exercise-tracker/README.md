@@ -1,3 +1,6 @@
+- Run `nodemon server` from the `backend/` directory to start the database server
+- Run `npm start` from this root directory to start the front end server
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
