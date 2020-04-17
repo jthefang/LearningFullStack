@@ -1,3 +1,4 @@
 - `!` to pre populate HTML doc
 - `.div` to create a div with class attribute
 - `lorem50` to populate with 50 character lorem
+- `Shift + Alt + F` to auto format document
