@@ -1,9 +1,9 @@
 # Table of contents
 - [CSS](CSS/)
   - [Units of Measurement](CSS/)
-  - [Flexbox](CSS/Flexbox.md)
-  - [Gridbox](CSS/Grid.md)
-  - [Sass](CSS/SASS.md)
+  - [Flexbox](CSS/Flexbox/)
+  - [Gridbox](CSS/Grid/)
+  - [Sass](CSS/Sass/)
 - [JS](JS/)
   - [Fetch API](JS/)
   - [Async, callbacks and promises](JS/AsyncJS.md)
