@@ -1,5 +1,18 @@
 # Intro to MongoDB
 
+## Table of Contents
+- [Intro to MongoDB](#intro-to-mongodb)
+  - [Table of Contents](#table-of-contents)
+  - [What is MongoDB](#what-is-mongodb)
+  - [Terminology](#terminology)
+  - [Documents](#documents)
+  - [MongoDB Atlas](#mongodb-atlas)
+  - [Project setup](#project-setup)
+  - [Creating the schema using Mongoose](#creating-the-schema-using-mongoose)
+  - [Adding API endpoint routes](#adding-api-endpoint-routes)
+  - [Testing server API endpoints with Insomnia](#testing-server-api-endpoints-with-insomnia)
+  - [Misc](#misc)
+
 - MERN stack (MongoDB, Express, React, Node.js)
 - MongoDB = document-based open source database
 - Express = web app framewrok for Node.js
@@ -237,7 +250,7 @@ module.exports = router;
   - Body dropdown > JSON
 ```JSON
 {
-	"username": "beau" // then again with "quincy"
+	"username": "beau" 
 }
 ```
   - Send => should get response `User added!`
@@ -256,4 +269,4 @@ module.exports = router;
 ## Misc
 - `ObjectId` automatically generated, guaranteed to be unique across a collection
   - can define it ourselves (but must be unique)
-- 
+
