@@ -2,7 +2,7 @@
 - [CSS](CSS/)
   - [Units of Measurement](CSS/)
   - [Flexbox](CSS/Flexbox/)
-  - [Gridbox](CSS/Grid/)
+  - [Grid](CSS/Grid/)
   - [Sass](CSS/Sass/)
 - [JS](JS/)
   - [Fetch API](JS/)
