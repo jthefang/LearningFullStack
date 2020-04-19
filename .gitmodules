@@ -1,0 +1,3 @@
+[submodule "Webpack/webpack-demo-app"]
+	path = Webpack/webpack-demo-app
+	url = https://github.com/Colt/webpack-demo-app.git
