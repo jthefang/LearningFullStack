@@ -4,6 +4,7 @@
   - [Flexbox](CSS/Flexbox/)
   - [Grid](CSS/Grid/)
   - [Sass](CSS/Sass/)
+  - [Bootstrap](CSS/Bootstrap/)
 - [JS](JS/)
   - [Fetch API](JS/)
   - [Async, callbacks and promises](JS/AsyncJS.md)
