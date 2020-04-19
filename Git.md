@@ -124,3 +124,8 @@ Workflow:
 - then it’ll ask you for a commit message for the squashed commits (default = list of all the squashed commits’ messages)
 - `git rebase --abort`
     - to abort a rebase
+
+## Submodules (nested Git repos)
+
+- Reference this [note](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
+- `git submodule add <git link> dir-to-add-submodule/`
