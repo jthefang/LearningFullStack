@@ -1,19 +1,5 @@
 # Bootstrap CSS
 
-## Table of Contents
-
-- [Bootstrap CSS](#bootstrap-css)
-  - [Table of Contents](#table-of-contents)
-  - [Installing/using Bootstrap](#installingusing-bootstrap)
-  - [Bootstrap 4 Grid](#bootstrap-4-grid)
-  - [Navbar](#navbar)
-  - [Alerts](#alerts)
-  - [Modals](#modals)
-  - [Forms](#forms)
-    - [Form validation styles](#form-validation-styles)
-    - [Form validation (JS)](#form-validation-js)
-  - [Bootstrap theme customization](#bootstrap-theme-customization)
-
 - Bootstrap is a CSS framework
 - Provides **general default styles** + **pre-defined CSS classes** which you can add to your HTML elements to get certain looks
 - Uses a grid layout
@@ -30,6 +16,20 @@
   - ships with JS to provide certain element behaviors (e.g. modals)
   - alerts, buttons, cards, forms, navbars (with search bars)
 - Bootstrap 4 is built in a **mobile first** way
+
+## Table of Contents
+
+- [Bootstrap CSS](#bootstrap-css)
+  - [Table of Contents](#table-of-contents)
+  - [Installing/using Bootstrap](#installingusing-bootstrap)
+  - [Bootstrap 4 Grid](#bootstrap-4-grid)
+  - [Navbar](#navbar)
+  - [Alerts](#alerts)
+  - [Modals](#modals)
+  - [Forms](#forms)
+    - [Form validation styles](#form-validation-styles)
+    - [Form validation (JS)](#form-validation-js)
+  - [Bootstrap theme customization](#bootstrap-theme-customization)
 
 ## Installing/using Bootstrap
 
@@ -291,4 +291,57 @@
 
 ## Bootstrap theme customization
 
-- 
+- Can change default settings of Bootstrap using Sass
+- See [theming docs](https://getbootstrap.com/docs/4.0/getting-started/theming/)
+- Override Bootstrap Sass variables => recompile to get custom Bootstrap
+  - => need raw Bootstrap source
+- To do this:
+  - Go to root project folder > `npm init -y`
+  - `npm install bootstrap --save` (save adds `bootstrap` as a dependency in the `packages.json` file, which is useful for sharing the project later)
+  - `node_modules/bootstrap/scss` is where the Bootstrap Sass is (don't override these files!)
+- Instead create your own Sass file (e.g. `main.scss`)
+```css
+@import "node_modules/bootstrap/scss/bootstrap"; //import all of bootstrap
+
+.main-form {
+  width: 500px;
+  margin: auto;
+}
+```
+- run `sass main.scss main.css` to convert this into a `main.css` file which contains *all of Bootstrap* plus your own styles
+  - => don't have to include the Bootstrap css file from the CDN
+  - just use your own `main.css` which includes ALL of the Bootstrap styles!
+  - DON'T FORGET TO RECOMPILE TO SEE CHANGES
+- All we have to do to modify Bootstrap themes is change some variables before we import Bootstrap (it's setup to not override our overrides)
+```css
+/*e.g. change primary and danger colors */
+$theme-colors: (
+  "primary": #521751,
+  "danger": #a20800,
+);
+
+$border-radius: 10rem;
+
+@import "node_modules/bootstrap/scss/bootstrap"; 
+```
+- Check `node_modules/bootstrap/scss/_variables.scss` (and the docs) for all the variables you could modify
+  - don't change anything in this file! Change it in your own file
+- Can also just import the parts of Bootstrap you need (makes for a smaller/faster-loading webpage)
+```css
+// Minified bootstrap import (to only what you need)
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// What I need
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/utilities"; //for navbar
+@import "node_modules/bootstrap/scss/transitions"; //for navbar
+@import "node_modules/bootstrap/scss/reboot"; //default text style
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/forms";
+@import "node_modules/bootstrap/scss/alert";
+@import "node_modules/bootstrap/scss/modal";
+```
