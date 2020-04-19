@@ -1,4 +1,6 @@
 # Table of contents
+
+- [Git](Git.md)
 - [CSS](CSS/)
   - [Units of Measurement](CSS/)
   - [Flexbox](CSS/Flexbox/)
@@ -11,8 +13,10 @@
 - [React](JS/React/)
 - [Databases](Databases/)
   - [MongoDB](Databases/MongoDB/)
+- [Webpack](Webpack/)
 
 # VSCode Extensions
+
 - Live Server
     - right click `.html` file > `Open with Live Server`
     - save file and the change will show up right away
