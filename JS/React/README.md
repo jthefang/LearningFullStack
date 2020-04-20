@@ -565,4 +565,4 @@ export default class CreateExercises extends Component {
 
 ## Font-awesome
 
-- (Link to React-fontawesome)[https://github.com/FortAwesome/react-fontawesome#installation]
+- Link to [React-fontawesome](https://github.com/FortAwesome/react-fontawesome#installation)
