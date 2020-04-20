@@ -7,6 +7,14 @@
 - Render method returns a React element = lightweight representation of what to render
   - JSX allows you to embed JS in HTML
 
+## Table of Contents
+
+- [Intro](#intro)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [MERN Tutorial](#mern-tutorial)
+  - [Font-awesome](#font-awesome)
+
 ## Overview
 - `root/public/`
   - `index.html` = the html that loads as the front page
@@ -554,3 +562,7 @@ export default class CreateExercises extends Component {
   }
 }
 ```
+
+## Font-awesome
+
+- (Link to React-fontawesome)[https://github.com/FortAwesome/react-fontawesome#installation]
