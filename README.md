@@ -11,6 +11,7 @@
   - [Fetch API](JS/)
   - [Async, callbacks and promises](JS/AsyncJS.md)
 - [React](JS/React/)
+  - [Beautiful Drag and Drop](JS/React/Beautiful-DnD/)
 - [Databases](Databases/)
   - [MongoDB](Databases/MongoDB/)
 - [Webpack](Webpack/)

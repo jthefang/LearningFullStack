@@ -10,6 +10,7 @@
   - [Performance optimization](#performance-optimization)
 
 - See [docs](https://github.com/atlassian/react-beautiful-dnd)
+  
 ![beautiful dnd components](./images/components.gif)
 - `DragDropContext` component will wrap part of app that will have DnD (drag and drop) enabled
   - `Droppable` component = region that we can drop elements into
