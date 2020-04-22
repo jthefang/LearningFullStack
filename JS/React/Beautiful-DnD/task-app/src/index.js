@@ -35,6 +35,7 @@ class App extends React.Component {
   }*/
 
   onDragStart = start => {
+    // only allow tasks to move to columns to the right of it's current column
     const homeIndex = this.state.columnOrder.indexOf(start.source.droppableId);
 
     this.setState({
