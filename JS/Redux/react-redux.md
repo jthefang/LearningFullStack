@@ -21,6 +21,7 @@
   - Dispatch will send action -> store -> reducer
 - Can have multiple reducers that take care of different parts of the store
   - each reducer will be associated with some state in the store
+- See `react-redux-basics` [repo](react-redux-basics/)
 
 ## Basic Redux (no React)
 
@@ -359,5 +360,4 @@ const userReducer = (state = {name: "Max", age: 27}, action) => {
 };
 
 export default userReducer;
-
 ```
