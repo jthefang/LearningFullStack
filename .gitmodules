@@ -1,3 +1,9 @@
 [submodule "Webpack/webpack-demo-app"]
 	path = Webpack/webpack-demo-app
 	url = https://github.com/Colt/webpack-demo-app.git
+[submodule "JS/Redux/react-with-redux"]
+	path = JS/Redux/react-with-redux
+	url = https://github.com/techsithgit/react-with-redux
+[submodule "JS/Redux/react-redux-basics"]
+	path = JS/Redux/react-redux-basics
+	url = https://github.com/mschwarzmueller/reactjs-redux-basics.git
