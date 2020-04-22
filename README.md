@@ -12,6 +12,8 @@
   - [Async, callbacks and promises](JS/AsyncJS.md)
 - [React](JS/React/)
   - [Beautiful Drag and Drop](JS/React/Beautiful-DnD/)
+- [Redux](JS/Redux/)
+  - [React Redux](JS/Redux/react-redux.md)
 - [Databases](Databases/)
   - [MongoDB](Databases/MongoDB/)
 - [Webpack](Webpack/)
