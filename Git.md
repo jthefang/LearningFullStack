@@ -59,7 +59,8 @@
 
 ## Squashing commits 
 - See [link](https://www.internalpointers.com/post/squash-commits-into-one-git)
-- `git rebase -i [4a1735c07f9089eb4deb566a88cfe33259b235e9]`
+![rebase](images/git-rebase.png)
+- `git rebase -i 6394dc`
   - the hash = hash of the commit that is immediately BEFORE the first commit in the bundle of commits you want to squash 
 - in the interactive editor, mark everything except the first as s (leave the first commit as pick)
   - `Ctrl-O`, `Enter`, `Ctrl-X` in nano to save and exit
