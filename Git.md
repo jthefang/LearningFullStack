@@ -2,6 +2,7 @@
 
 - [Git](#git)
 	- [Initialize remote with local](#initialize-remote-with-local)
+		- [Unitialize repo](#unitialize-repo)
 	- [Basic Workflow](#basic-workflow)
 		- [Create new branch and keep up to date with masters](#create-new-branch-and-keep-up-to-date-with-masters)
 		- [Merge with master](#merge-with-master)
@@ -29,6 +30,10 @@
 2. `git remote add origin git@github.com:jthefang/HeartCraft.git`
 3. `git pull origin master --allow-unrelated-histories`
 4. `git push origin master`
+
+### Unitialize repo
+
+- `rm -rf .git`
 
 ## Basic Workflow
 
@@ -96,7 +101,7 @@
 - `git rm -r --cached <folder>`
 - `git clean -fd`
     - removes untracked files (f) and directories (d)
-- `git reset - [file]`
+- `git reset [file]`
 	- untracks file
 - Add folders to git ignore if you don’t want git to even pick up their changes
 
