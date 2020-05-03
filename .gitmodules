@@ -7,6 +7,3 @@
 [submodule "JS/Redux/react-redux-basics"]
 	path = JS/Redux/react-redux-basics
 	url = https://github.com/mschwarzmueller/reactjs-redux-basics.git
-[submodule "mern-shopping-list"]
-	path = mern-shopping-list
-	url = git@github.com:jthefang/mern-shopping-list.git

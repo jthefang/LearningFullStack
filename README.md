@@ -18,6 +18,7 @@
 - [Databases](Databases/)
   - [MongoDB](Databases/MongoDB/)
 - [Webpack](Webpack/)
+- [MERN](https://github.com/jthefang/mern-shopping-list)
 
 # VSCode Extensions
 
