@@ -25,3 +25,8 @@
 - Live Server
     - right click `.html` file > `Open with Live Server`
     - save file and the change will show up right away
+
+# Resources
+
+- Favicons
+  - https://gauger.io/fonticon/
