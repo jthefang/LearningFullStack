@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hello-world": {
+    "angular-crash-todolist": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hello-world",
+            "outputPath": "dist/angular-crash-todolist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "hello-world:build"
+            "browserTarget": "angular-crash-todolist:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "hello-world:build:production"
+              "browserTarget": "angular-crash-todolist:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hello-world:build"
+            "browserTarget": "angular-crash-todolist:build"
           }
         },
         "test": {
@@ -110,19 +110,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "hello-world:serve"
+            "devServerTarget": "angular-crash-todolist:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "hello-world:serve:production"
+              "devServerTarget": "angular-crash-todolist:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "hello-world",
+  "defaultProject": "angular-crash-todolist",
   "cli": {
-    "analytics": "3c1d0bf3-6413-4e6f-90a5-6cbabde2b346"
+    "analytics": "877df0df-47a9-4bb3-8403-5a4bb4d16deb"
   }
 }
