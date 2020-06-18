@@ -1,6 +1,7 @@
 # Angular & Firestore Application
 
 - Based on this video [tutorial](https://www.youtube.com/watch?v=gUmItHaVL2w)
+- See the `angularfs/` [directory](angularfs/)
 - - [Angular & Firestore Application](#angular--firestore-application)
   - [Firestore](#firestore)
     - [Adding data](#adding-data)
