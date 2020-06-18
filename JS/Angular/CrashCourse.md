@@ -55,6 +55,7 @@ export class AppComponent implements OnInit {
 
 - `ng new myapp` build new Angular app
 - `ng serve` to start the front-end dev server
+  - `ng serve --open` to open localhost:4200 automatically
 - `ng build` to build static `dist/` folder to upload to live server
 - `ng generate component todos`
   - `ng generate service todo`
@@ -528,8 +529,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppModule { }
 ```
-- Any input should be added as a field of the component class
-- You should bind that to the field in the HTML with `[(ngModel)]`
+- Any form input should be added as a field of the component class
+- You should bind the component field to the form input in the HTML with `[(ngModel)]`
+  - this is 2-way binding
 ```HTML
 <!-- add-todo.component.html -->
 <form class="form" (ngSubmit)="onSubmit()">
@@ -615,6 +617,7 @@ export class TodoService {
   ...
 }
 ```
+- Conditional rendering with `*ngIf`
 
 ### Routing
 
@@ -653,3 +656,8 @@ export class AppRoutingModule { }
   </nav>
 </header>
 ```
+
+## Font-awesome
+
+- `npm install font-awesome`
+- `<i (click)="editItem($event, item)" class="fa fa-pencil"></i>` in the HTML
