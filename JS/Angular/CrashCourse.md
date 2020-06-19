@@ -18,6 +18,7 @@
       - [DELETE request with EventEmitter](#delete-request-with-eventemitter)
     - [Forms](#forms)
     - [Routing](#routing)
+  - [Font-awesome](#font-awesome)
 
 ## Intro
 
