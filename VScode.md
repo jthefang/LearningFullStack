@@ -1,5 +1,8 @@
 - `!` to pre populate HTML doc
-- `.div` to create a div with class attribute
+- `.class-name` to create a div with class attribute
   - `.container` to create a `<div class="container">` element
+  - e.g. `div.row.s6` --> `<div class="row s6"></div>`
 - `lorem50` to populate with 50 character lorem
 - `Shift + Alt + F` to auto format document
+- `Ctrl + \`` to open terminal
+- `Cmd + /` to toggle comments on lines

@@ -4,6 +4,20 @@
 - [Angular with Firebase](#angular-with-firebase)
   - [What is Angular](#what-is-angular)
   - [Setting up the dev environment](#setting-up-the-dev-environment)
+    - [Project organization](#project-organization)
+  - [Angular History](#angular-history)
+  - [TypeScript Fundamentals](#typescript-fundamentals)
+    - [Variables](#variables)
+    - [Arrow functions](#arrow-functions)
+    - [Custom types/classes](#custom-typesclasses)
+  - [Modules](#modules)
+  - [Building blocks of Angular apps](#building-blocks-of-angular-apps)
+  - [Components](#components)
+    - [Creating components using Angular CLI](#creating-components-using-angular-cli)
+  - [Templates](#templates)
+    - [Directives](#directives)
+  - [Services](#services)
+  - [Adding Bootstrap](#adding-bootstrap)
 
 ## What is Angular
 
@@ -365,3 +379,34 @@ export class AppModule { }
   - `ng generate service email`
     - or `ng g s email` for short
     - `@Injectable` is used if the class constructor has dependencies injected into it (`@Component` decorator does this by default for Component classes)
+
+## Adding Bootstrap
+
+- `npm install --save bootstrap jquery popper.js`
+```JS
+//angular.json
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "project-builder": {
+      ...
+      "architect": {
+        "build": {
+          ...
+          "options": {
+            ...
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css" // <----------- 
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js", // <----------- 
+              "node_modules/bootstrap/dist/js/bootstrap.min.js" // <----------- 
+            ]
+          },
+          ...
+    }},
+}
+```
