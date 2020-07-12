@@ -2,13 +2,14 @@
 
 - Based on this video [tutorial](https://www.youtube.com/watch?v=gUmItHaVL2w)
 - See the `angularfs/` [directory](angularfs/)
-- - [Angular & Firestore Application](#angular--firestore-application)
+- [Angular & Firestore Application](#angular--firestore-application)
   - [Firestore](#firestore)
     - [Adding data](#adding-data)
   - [The Angular project](#the-angular-project)
     - [Connect to Firestore with a Service](#connect-to-firestore-with-a-service)
     - [Adding and Deleting from Firestore](#adding-and-deleting-from-firestore)
-    - [](#)
+    - [Editing/updating documents](#editingupdating-documents)
+  - [Deploying the application](#deploying-the-application)
 
 ## Firestore
 
