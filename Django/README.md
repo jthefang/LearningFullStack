@@ -1,5 +1,5 @@
 - Going to make a polling app following this [video tutorial](https://www.youtube.com/watch?v=e1IyzVyrLSU)
-  - See [`pollster_project`](./pollster_project)
+  - See [`pollster_project`](./pollster_project/)
 - Django is a high-level Python web framework for rapid design
 
 ## Table of Contents

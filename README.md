@@ -21,6 +21,7 @@
   - [React Redux](JS/Redux/react-redux.md)
 - [Databases](Databases/)
   - [MongoDB](Databases/MongoDB/)
+- [Django](Django/)
 - [Webpack](Webpack/)
 - [MERN](https://github.com/jthefang/mern-shopping-list)
 
