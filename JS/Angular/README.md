@@ -382,7 +382,7 @@ export class AppModule { }
 
 ## Adding Bootstrap
 
-- `npm install --save bootstrap jquery popper.js`
+- `npm install --save bootstrap jquery @popperjs/core`
 ```JS
 //angular.json
 {
