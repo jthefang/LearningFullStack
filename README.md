@@ -1,6 +1,7 @@
 # Table of contents
 
 - [Git](Git.md)
+- [AWS](AWS/)
 - [CSS](CSS/)
   - [Units of Measurement](CSS/)
   - [Flexbox](CSS/Flexbox/)

@@ -1,5 +1,8 @@
 - Following this [tutorial](https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-one/)
 
+- [Hosting a static website](#hosting-a-static-website)
+- [Adding SSL](#adding-ssl)
+
 ## Hosting a static website
 
 - Use AWS CLI to create S3 bucket
@@ -28,3 +31,8 @@
   - to copy `index.html` or static files to the S3 bucket to be served
 - Now go to `http://[unique-bucket-name].s3-website.us-east-2.amazonaws.com`
   - NOTE that we used `us-east-2` since we are hosting the bucket from the Ohio datacenter
+
+## Adding SSL
+
+- [Link](https://medium.com/@sbuckpesch/setup-aws-s3-static-website-hosting-using-ssl-acm-34d41d32e394)
+  - Just don't do email, verify via `DNS validation` in the certificate manager instead
